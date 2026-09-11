@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday, My Love</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container welcome-page" id="welcome-page">
+        <div class="heart-container">
+            <div class="heart"></div>
+        </div>
+        <h1>Happy Birthday, Beautiful</h1>
+        <p>On your special day, I've made something just for you...❤️</p>
+        <!-- Add background music to welcome page -->
+        <audio id="welcome-music" loop>
+            <source src="audio.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <button class="music-control" id="welcome-music-toggle">
+            <i class="fas fa-volume-up"></i>
+        </button>
+        <!-- Welcome page button -->
+        <button class="btn" id="start-btn">Unlock My Heart <i class="fas fa-heart"></i></button>
+    </div>
+
+    <div class="container memory-page hidden" id="memory-page">
+        <h1>Our Beautiful Memories</h1>
+        <div class="memory-container">
+            <div class="memory-card">
+                <div class="memory-date">When You Said Yes</div>
+                <div class="memory-text">The day you accepted my love, I couldn't believe it was real. I felt like I was dreaming for so many days. The love you've shown and your patience with my anger - I am very lucky to have you, my girl.</div>
+            </div>
+            <div class="memory-card">
+                <div class="memory-date">Our First Meeting</div>
+                <div class="memory-text">The first time we met, I was so eager to touch you and feel your soft hands, to see the most beautiful eyes ever from a close distance. The first time I smelled you really close - it was soo lovely.</div>
+            </div>
+            <div class="memory-card">
+                <div class="memory-date">Our First Kiss</div>
+                <div class="memory-text">The first time we kissed, I almost lost myself in you. I cannot forget your sweet lips, my heartbeat racing, eyes closed - It is a very special birthday to me😉. I can still feel how sweet our first kiss was-pure magic.</div>
+            </div>
+        </div>
+        <button class="btn" id="memory-next-btn">Peek at Our Special Moment <i class="fas fa-gift"></i></button>
+    </div>
+
+    <div class="container special-image-page hidden" id="special-image-page">
+        <h1>A Special Moment</h1>
+        <div class="image-frame">
+            <div class="frame-decoration top-left"></div>
+            <div class="frame-decoration top-right"></div>
+            <div class="frame-decoration bottom-left"></div>
+            <div class="frame-decoration bottom-right"></div>
+            <div class="image-container">
+                <!-- Replace the src attribute with the path to your image -->
+                <img src="2.jpg" alt="A special moment together" class="special-image">
+                
+            </div>
+            <div class="image-caption">Every picture with you tells a story of love</div>
+        </div>
+        <button class="btn" id="image-next-btn">Discover What I Adore About You <i class="fas fa-magic"></i></button>
+    </div>
+
+    <div class="container heart-gallery-page hidden" id="heart-gallery-page">
+        <h1>Everything I Adore About You</h1>
+        <div class="heart-gallery">
+            <div class="floating-heart" data-delay="0">Your eyes</div>
+            <div class="floating-heart" data-delay="1">Your touch</div>
+            <div class="floating-heart" data-delay="2">Your love</div>
+            <div class="floating-heart" data-delay="3">Your smile</div>
+            <div class="floating-heart" data-delay="4">Your muaah</div>
+            <div class="floating-heart" data-delay="5">Your laugh</div>
+            <div class="floating-heart" data-delay="6">Your care</div>
+            <div class="floating-heart" data-delay="7">Your voice</div>
+            <div class="floating-heart" data-delay="8">Your everything</div>
+            <div class="floating-heart" data-delay="9">Finally YOU!</div>
+        </div>
+        <button class="btn" id="heart-next-btn">Unwrap My Birthday Message <i class="fas fa-gift"></i></button>
+    </div>
+
+    <div class="container final-page hidden" id="final-page">
+        <div class="final-message">
+            <h1>Happy Birthday, Rishi❤️</h1>
+            <p>My love,</p>
+            <p>Every time I look at your picture, I'm reminded of how incredibly lucky I am to have you in my life. Even with miles between us, your smile brightens even my darkest days, and the memory of your touch makes my heart skip a beat, just like the first time we met.</p>
+            <p>On your special day, I want you to know that distance means nothing when someone means everything. Your kindness, your laughter, your sweet little quirks - I cherish every single part of you, no matter how far apart we are.</p>
+           
+            <p>Our video calls are the highlight of my day - seeing your beautiful face light up my screen makes the distance fade away. I treasure every moment we share, even when it's just silence and smiles through a screen.</p>
+            <p>Even in our fights, my love for you never wavers. The way we work through our differences, how you understand me like no one else, and how we always find our way back to each other - it only makes our bond stronger and more beautiful with each passing day.</p>
+            <p>I promise that no matter how many miles separate us, my heart is always with you. I count down the days until I can hold you again, kiss away your tears in person, and celebrate all your victories - big and small - by your side.</p>
+            <p>You've already made my world better just by being in it.</p>
+            <p>Forever yours,</p>
+            <div class="signature">With all my heart</div>
+        </div>
+        <div class="floating-hearts">
+            <i class="fas fa-heart"></i>
+            <i class="fas fa-heart"></i>
+            <i class="fas fa-heart"></i>
+            <i class="fas fa-heart"></i>
+            <i class="fas fa-heart"></i>
+            <i class="fas fa-heart"></i>
+            <i class="fas fa-heart"></i>
+            <i class="fas fa-heart"></i>
+            <i class="fas fa-birthday-cake"></i>
+            <i class="fas fa-gift"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-heart"></i>
+            <i class="fas fa-heart"></i>
+            <i class="fas fa-heart"></i>
+            <i class="fas fa-heart"></i>
+            <i class="fas fa-heart"></i>
+            <i class="fas fa-heart"></i>
+            <i class="fas fa-heart"></i>
+            <i class="fas fa-heart"></i>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
